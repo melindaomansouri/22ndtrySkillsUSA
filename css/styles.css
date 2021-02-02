@@ -10,7 +10,6 @@ header {
     text-align: center;
     padding: 10px;
     margin: 0px;
-    background: url("images/sign-header.png") no-repeat;
 }
 
 nav {
@@ -22,6 +21,7 @@ a {
     text-decoration: none;
     color: #ffe633;
     font-size: 2.5vw;
+    text-align: center;
     transition: color 0.5s;
 }
 
