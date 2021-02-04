@@ -3,7 +3,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     color: #EAE9AC;
     padding: 0px;
-    margin: 0px
+    margin: 0px;
 }
 
 header {
@@ -41,7 +41,6 @@ a {
 nav > a {
     display: block;
     width: 100%;
-    height: auto ;
 }
 
 a:active {
