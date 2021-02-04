@@ -1,5 +1,7 @@
 body {
-    background-color: #AAA;
+    background-color: #FFCED4;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #344341;
 }
 
 header {
@@ -10,6 +12,10 @@ header {
     text-align: center;
     padding: 10px;
     margin: 0px;
+}
+
+header > img {
+    width: 49%;
 }
 
 nav {
@@ -24,6 +30,8 @@ a {
     text-align: center;
     transition: color 0.5s;
     background: url(../images/link-sign.png) no-repeat 0 0;
+    background-size: 95% 100%;
+    background-position: center;
 }
 
 nav > a {
@@ -41,16 +49,33 @@ a:hover {
 }
 
 div.boats {
+    display: block;
     position: relative;
-    left: 10%;
     width: 80%;
+    height: 30%;
+    left: 10%;
+    right: 10%;
     text-align: center;
 }
 
 div.boats > img {
-    
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 5px
 }
 
 div.boats > p {
+    display: block;
     float: inherit;
+    padding: 5px;
+}
+
+iframe {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    width: 100%;
 }
