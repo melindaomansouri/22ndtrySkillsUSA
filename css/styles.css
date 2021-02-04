@@ -1,10 +1,11 @@
 body {
-    background-color: #FFCED4;
+    background-color: #DD6969;
     font-family: 'Josefin Sans', sans-serif;
-    color: #344341;
+    color: #EAE9AC;
 }
 
 header {
+    color: #ffe633;
     display: flex;
     justify-content: center;
     justify-content: space-between;
