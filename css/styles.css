@@ -2,7 +2,8 @@ body {
     background-color: #DD6969;
     font-family: 'Josefin Sans', sans-serif;
     color: #EAE9AC;
-    margin: 0;
+    padding: 0px;
+    margin: 0px
 }
 
 header {
@@ -107,6 +108,3 @@ iframe {
     height: 15em;
 }
 
-footer {
-    width: 100%;
-}
