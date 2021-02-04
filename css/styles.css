@@ -23,6 +23,13 @@ a {
     font-size: 2.5vw;
     text-align: center;
     transition: color 0.5s;
+    background: url(../images/link-sign.png) no-repeat 0 0;
+}
+
+nav > a {
+    display: block;
+    width: 100%;
+    height: auto ;
 }
 
 a:active {
@@ -33,3 +40,17 @@ a:hover {
     color: #000;
 }
 
+div.boats {
+    position: relative;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+}
+
+div.boats > img {
+    
+}
+
+div.boats > p {
+    float: inherit;
+}
