@@ -2,6 +2,7 @@ body {
     background-color: #DD6969;
     font-family: 'Josefin Sans', sans-serif;
     color: #EAE9AC;
+    margin: 0;
 }
 
 header {
@@ -23,6 +24,7 @@ nav {
     display: flex;
     justify-content: space-around;
 }
+
 
 a {
     text-decoration: none;
@@ -46,7 +48,35 @@ a:active {
 }
 
 a:hover {
-    color: #000;
+    color: #625A4F;
+}
+
+section#sum {
+    display: block;
+    width: 100%;
+    padding-top: 1em;
+    
+}
+
+section#sum > img {
+    padding: 0px 10% 0px 10%;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+}
+
+section#sum > p {
+    position: relative;
+    font-size: 3vw;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 10px 0;
+    width: 80%;
+    left: 10%;
+}
+
+hr {
+    color: #EAE9AC;
 }
 
 div.boats {
@@ -74,7 +104,7 @@ div.boats > p {
 
 iframe {
     width: 100%;
-    height: auto;
+    height: 15em;
 }
 
 footer {
